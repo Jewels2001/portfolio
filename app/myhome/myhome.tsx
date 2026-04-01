@@ -26,7 +26,7 @@ export function MyHome() {
         </UniversalLink>
     ));
 
-    const hobbies = temp_list.map(hobby => <InterestBox hobby={hobby} />)
+    const hobbies = temp_list.map(hobby => <InterestBox hobby={hobby} key={hobby.id} />)
 
   return (
     <main className="flex items-center justify-center pt-16 pb-4">
