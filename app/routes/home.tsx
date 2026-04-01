@@ -4,8 +4,8 @@ import { MyHome } from "../myhome/myhome";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "💠Jewels💠" },
+    { name: "description", content: "Everything 💠Jewels💠 / Julie" },
   ];
 }
 
