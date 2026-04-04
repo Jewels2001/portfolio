@@ -15,7 +15,7 @@ export default function InterestBox( {hobby}: {hobby: {id: number, name: string,
             My hobby for this box is: {hobby.name}
             </div>
         </div>
-        <div className="h-3/4 w-full place-items-center-safe p-2">
+        <div className="h-3/4 w-full place-items-center-safe p-2 cursor-pointer">
           <img className="max-h-full max-w-full h-auto w-auto object-fill md:object-fill md:h-fill md:w-fill" // max-h-8/10 max-w-8/10
           src={hobby.img}/>
         </div>
