@@ -39,7 +39,8 @@ export function MyHome() {
                 <MdArrowForwardIos className="inline fill-orange-500"/>
             </div>
 
-            <div className="h-full col-span-2 items-center text-center neon-text text-4xl italic bitcount-grid-double-400">
+            <div className="h-full col-span-2 items-center text-center neon-text text-4xl 
+            bg-transparent rounded-lg italic bitcount-grid-double-400">
                 The Landing Point
             </div>
             {/* <div className="max-w-1/4">
