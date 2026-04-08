@@ -33,21 +33,21 @@ export function MyHome() {
   return (
     <main className="flex items-center justify-center pt-16 pb-4">
       <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
-        <header className="max-w-full w-full grid grid-cols-4  items-center gap-10 px-10">
-            <div className="h-full justify-start inline cursor-pointer">
-                Menu  
-                <MdArrowForwardIos className="inline fill-orange-500"/>
+        <header className="max-w-full w-full grid grid-cols-4  items-center pr-2 sm:pr-10">
+            <div className="left h-full col-start-1 flex justify-start block items-center 
+            px-2">
+                <MdArrowForwardIos className="fill-orange-500 circle-icon cursor-pointer min-h-10 min-w-10"/>
             </div>
 
             <div className="h-full col-span-2 items-center text-center neon-text text-4xl 
-            bg-transparent rounded-lg italic bitcount-grid-double-400">
+            bg-transparent rounded-lg italic bitcount-grid-double-400 w-full">
                 The Landing Point
             </div>
             {/* <div className="max-w-1/4">
             </div> */}
 
         </header>
-        <div className="max-w-[1300px] px-6 w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 gap-y-5">
+        <div className="max-w-[1300px] px-6 w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 gap-y-11">
             This div is here
 
             {test1}

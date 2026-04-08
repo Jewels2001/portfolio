@@ -73,6 +73,10 @@ body {
         0 0 100px var(--neon-color);
     }
   }
+
+  .circle-icon {
+    @apply w-auto h-auto p-1 items-center justify-center flex rounded-ee-lg rounded-tr-lg bg-gray-600 dark:bg-gray-500;
+  }
 }
 
 
